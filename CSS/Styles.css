@@ -1,0 +1,180 @@
+/*-- Affichage des alertes --*/
+.alertQ {
+    text-align:center;
+    position:relative;
+}
+/*-- Affichage de la page de connexion --*/
+#titrelogin {
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    font-size:35px; /*Taille du texte*/ letter-spacing: 1px; /*Espacement des lettres*/
+    text-align:center; /*Alignement central du texte*/ 
+    font-weight:bold; /*Style du texte en gras*/
+}
+#stlogin {
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    font-size: 19px; /*Taille du texte*/ text-align:center; /*Alignement central du texte*/
+}
+#pagelogin {
+    text-align:center; /*Alignement central du texte*/
+    margin:auto auto 20px auto; /*Marges extérieures du bloc s'adaptant automatiquement à la page*/
+    font-size:14px; /*Taille du texte*/
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    width:400px; height:auto; /*Hauteur et largeur du bloc*/
+    border: 2px solid lightblue; /*Bordures du bloc*/
+    background-color: #F4FBFA; /*Couleur de fond du bloc*/
+}
+/*-- Affichage de la page d'inscription --*/
+#titreinscription {
+    font-size:35px; /*Taille du texte*/
+    text-align:center; /*Alignement central du texte*/
+    font-family:'Trebuchet MS'; /*Police d'écriture*/
+}
+#stinscription {
+    font-size:19px; /*Taille du texte*/
+    text-align:center; /*Alignement central du texte*/
+    font-family:'Trebuchet MS'; /*Police d'écriture*/
+}
+#pageinscription {
+    text-align:center; /*Alignement central du texte*/
+    margin:auto auto 20px auto; /*Marges extérieures du bloc s'adaptant automatiquement à la page*/
+    font-size:13px; /*Taille du texte*/
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    width:400px; height:auto; /*Hauteur et largeur du bloc*/
+    border: 2px solid lightblue; /*Bordures du bloc*/
+    background-color: #F4FBFA; /*Couleur de fond du bloc*/
+}
+/*-- Affichage de la liste des questionnaires --*/
+.titrelstquest {
+    font-size:35px; /*Taille du texte*/
+    text-align:center; /*Alignement central du texte*/
+    font-family:'Trebuchet MS'; /*Police d'écriture*/
+}
+#pagelstquest {
+    font-size:12px; /*Taille du texte*/
+    font-family:'Trebuchet MS'; /*Police d'écriture*/
+}
+/*-- Style de la page du mot de passe oublié --*/
+#pageMDPoublier {
+    text-align:center; /*Alignement central du texte*/
+    margin:auto; /*Marges extérieures du bloc s'adaptant automatiquement à la page*/
+    font-size:14px; /*Taille du texte*/
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    width:400px; height:auto; /*Hauteur et largeur du bloc*/
+    border: 2px solid lightblue; /*Bordures du bloc*/
+    background-color: #F4FBFA; /*Couleur de fond du bloc*/
+}
+/*Pour afficher le nom de l'utilisateur dans la session en cours*/
+.InfoConnexion {
+    margin: 15px 15px 0 0;
+    text-align: right;
+}
+/*-- Style des pages de création d'un questionnaire --*/
+#titrecreerquest {
+    font-size:35px; /*Taille du texte*/
+    text-align:center; /*Alignement central du texte*/
+    font-family:'Trebuchet MS'; /*Police d'écriture*/
+    margin-top:15px;
+}
+#stcreerquest {
+    font-size:19px; /*Taille du texte*/
+    text-align:center; /*Alignement central du texte*/
+    font-family:'Trebuchet MS'; /*Police d'écriture*/
+}
+#pagecreerquest {
+    text-align:center; /*Alignement central du texte*/
+    margin:auto auto 20px auto; /*Marges extérieures du bloc s'adaptant à la page*/
+    padding: 20px; /*Marges intérieures du bloc*/
+    font-size:13px; /*Taille du texte*/
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    width:400px; height:auto; /*Hauteur et largeur du bloc*/
+    border: 2px solid lightblue; /*Bordures du bloc*/
+    background-color: #F4FBFA; /*Couleur de fond du bloc*/
+}
+/*-- Page du questionnaire choisi --*/
+#pageQuChoisi {
+    margin: -20px auto -20px auto; /*Marges extérieures du code*/
+    width: 650px; height:100%;/*Largeur*/
+    font-family: 'Trebuchet MS';/*Police d'écriture*/
+    background-color: #EBF5F4; /*Couleur de fond*/
+    border-left: 2px solid #006666; border-right: 2px solid #006666; /*Bordures de droite et de gauche*/
+}
+#questchbienvenue {
+    margin: 15px auto 27px auto;
+    text-align:center;
+    font-size:25px;
+}
+#libelleQuest1  {
+    margin-left: 35px;
+    text-align:left; /*Alignement du texte à gauche*/
+    font-size:19px; /*Taille du texte*/
+}
+#libelleQuest2 {
+    text-align:center; /*Alignement du texte au centre*/
+    font-size: 20px; /*Taille du texte*/
+}
+.blocquest1 {
+    text-align:left; /*Alignement central du texte*/
+    margin: 10px auto 10px auto; /*Marges extérieures du bloc s'adaptant à la page*/
+    padding: 20px; /*Marges intérieures du bloc*/
+    font-size:13px; /*Taille du texte*/
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    width:400px; height:auto; /*Hauteur et largeur du bloc*/
+    border: 2px solid #7BB9B1; /*Bordures du bloc*/
+    background-color: #F4FBFA; /*Couleur de fond du bloc*/
+}
+/*-- Style de la page des résultats --*/
+/*Affichage du corps de la page*/
+#pageResultats {
+    width: 600px; height:100%; /*Largeur et hauteur du bloc*/
+    margin: -20px auto -20px auto; /*Marges extérieures du code*/
+    background-color: #EBF5F4; /*Couleur de fond*/
+    border-left: 2px solid #006666; border-right: 2px solid #006666; /*Bordures de droite et de gauche*/
+    font-family: 'Trebuchet MS'; /*Style de la police d'écriture*/
+}
+/*Affichage de l'intitulé de la question*/
+.blocquestion {
+    margin:auto auto -5px auto; /*Marges extérieures du bloc s'adaptant à la page*/
+    font-family: 'Trebuchet MS'; /*Style de la police d'écriture*/
+    font-size: 17px; /*Taille du texte*/
+    text-align:center; /*Alignement central du texte*/
+}
+/*Affichage de la réponse donnée par l'utilisateur*/
+.blocreponse1 {
+    text-align:center; /*Alignement central du texte*/
+    margin:auto; /*Marges extérieures du bloc s'adaptant à la page*/
+    padding: 20px; /*Marges intérieures du bloc*/
+    font-size:13px; /*Taille du texte*/
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    width:400px; height:auto; /*Hauteur et largeur du bloc*/
+    border: 2px solid #7BB9B1; /*Bordures du bloc*/
+    background-color: #F4FBFA; /*Couleur de fond du bloc*/
+}
+/*Affichage de la ou les bonnes réponses*/
+.blocreponse2 {
+    text-align:center; /*Alignement central du texte*/
+    margin:auto auto 20px auto; /*Marges extérieures du bloc s'adaptant à la page*/
+    padding: 20px; /*Marges intérieures du bloc*/
+    font-size:13px; /*Taille du texte*/
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    width:400px; height:auto; /*Hauteur et largeur du bloc*/
+    border: 2px solid #046380; /*Bordures du bloc*/
+    background-color: #F9FFFE; /*Couleur de fond du bloc*/
+}
+/*Affichage si l'utilisateur a donné une mauvaise réponse"'*/
+.blocmauvaiserep {
+    text-align:center; /*Alignement central du texte*/
+    margin:auto auto 20px auto; /*Marges extérieures du bloc s'adaptant à la page*/
+    padding: 20px; /*Marges intérieures du bloc*/
+    font-size:13px; /*Taille du texte*/
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    width:400px; height:auto; /*Hauteur et largeur du bloc*/
+    border: 2px solid #E02125; /*Bordures du bloc*/
+    background-color: #F9FFFE; /*Couleur de fond du bloc*/
+}
+/*Affichage de la note obtenue*/
+#resultatTotal {
+    text-align:center; /*Alignement central du texte*/
+    margin-bottom: 20px; /*Laisse un espace entre le résultat et le bas de la page*/
+    font-family: 'Trebuchet MS'; /*Police d'écriture*/
+    font-size:22px; /*Taille du texte*/
+}
